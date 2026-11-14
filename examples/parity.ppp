@@ -1,0 +1,6 @@
+# Odd numbers print themselves, even numbers print 0
+: @i 1
+& < @i 7 (
+  !?-! = % @i 2 0 ( ? 0 ) ( ? @i )
+  : @i + @i 1
+)
